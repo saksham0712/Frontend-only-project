@@ -121,7 +121,7 @@ const Section = () => {
                 <div className="left flex flex-col gap-3 text-center mt-4 mb-4 md:text-start w-[80vw]">
                     <h1 className='text-gray-500 text-5xl md:text-8xl mt-4 font-semibold text-center'>Pellentesque suscipit fringilla libero eu.</h1>
                 </div>
-                <div>
+                <div className='mb-6'>
                     <button type="button" className=" flex gap-2 items-center focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-sm text-lg px-5 py-2.5 me-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
                         <p>Get Demo</p>
                         <img src={arrow1} className='w-6 h-6 items-center' alt="arrow" />

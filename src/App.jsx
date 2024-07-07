@@ -1,6 +1,7 @@
 
 import './App.css'
 import Countup from './components/Countup'
+import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import OurClients from './components/OurClients'
@@ -16,6 +17,7 @@ function App() {
       <OurClients />
       <Countup />
       <Section />
+      <Footer />
     </>
   )
 }

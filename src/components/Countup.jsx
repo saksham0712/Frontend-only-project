@@ -17,28 +17,28 @@ const Countup = () => {
         <div className='flex gap-2'>
           <img src={member} alt="mem" />
           <div>
-            <h1 className='text-gray-500 text-xl md:text-3xl font-semibold'><CountUp start={0} end={2245341} duration={3}/></h1>
+            <h1 className='text-gray-500 text-xl md:text-3xl font-semibold'><CountUp start={0} end={2245341} duration={5}/></h1>
             <p className='text-sm text-black opacity-55'>Members</p>
           </div>
         </div>
         <div className='flex gap-2'>
           <img src={club} alt="mem" />
           <div>
-            <h1 className='text-gray-500 text-xl md:text-3xl font-semibold'><CountUp start={0} end={46328} duration={3}/></h1>
+            <h1 className='text-gray-500 text-xl md:text-3xl font-semibold'><CountUp start={0} end={46328} duration={5}/></h1>
             <p className='text-sm text-black opacity-55'>Clubs</p>
           </div>
         </div>
         <div className='flex gap-2'>
           <img src={events} alt="mem" />
           <div>
-            <h1 className='text-gray-500 text-xl md:text-3xl font-semibold'><CountUp start={0} end={828867} duration={3}/></h1>
+            <h1 className='text-gray-500 text-xl md:text-3xl font-semibold'><CountUp start={0} end={828867} duration={5}/></h1>
             <p className='text-sm text-black opacity-55'>Event booking</p>
           </div>
         </div>
         <div className='flex gap-2'>
           <img src={Payment} alt="mem" />
           <div>
-            <h1 className='text-gray-500 text-xl md:text-3xl font-semibold'><CountUp start={0} end={1926436} duration={3}/></h1>
+            <h1 className='text-gray-500 text-xl md:text-3xl font-semibold'><CountUp start={0} end={1926436} duration={5}/></h1>
             <p className='text-sm text-black opacity-55'>Payments</p>
           </div>
         </div>
