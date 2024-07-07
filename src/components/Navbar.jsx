@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='bg-slate-400 h-auto '>
+      <nav className='bg-slate-100 h-auto '>
         <div className='flex flex-auto flex-wrap justify-between md:justify-around items-center text-center p-2' >
           <div className="logo text-center align-middle"><img src={logo} alt="" /></div>
           <div className="items hidden md:block">
@@ -41,7 +41,7 @@ const Navbar = () => {
             <div id="dropdown" className={`${showNav} absolute right-0 top-11 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700`}>
               <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Homw</a>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Home</a>
                 </li>
                 <li>
                   <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Services</a>

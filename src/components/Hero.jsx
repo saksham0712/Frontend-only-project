@@ -5,8 +5,8 @@ import leftImg from '../assets/hero/rightimg.svg'
 const Hero = () => {
     return (
         <>
-            <div className="h-[90vh] w-full flex flex-wrap justify-around items-center text-center">
-                <div className="left flex flex-col items-center sm:items-start gap-6">
+            <div className="h-[90vh] w-full bg-slate-100 flex flex-wrap justify-around items-center text-center">
+                <div className="left flex flex-col items-center md:items-start gap-6">
                     <div><h1 className='text-gray-700 text-5xl md:text-7xl font-semibold'>Lessons and insights</h1></div>
                     <div><h1 className='text-green-600 text-5xl md:text-7xl font-semibold'>from 8 years</h1></div>
                     <div><p className='text-gray-800 mx-4 md:m-1'>Where to grow business as a photographer: site or social media?</p></div>
