@@ -38,9 +38,9 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className='bg-slate-100 dark:bg-[#222831] h-auto dark:text-white pb-4'>
+      <nav className='bg-slate-100 dark:bg-[#222831] h-auto dark:text-white'>
         <div className='flex flex-auto flex-wrap justify-between md:justify-around items-center text-center p-2' >
-          <div className="logo text-center align-middle"><img src={logo} alt="" /></div>
+          <div className="logo text-center align-middle"><img className='filter dark:brightness-200' src={logo} alt="logo" /></div>
           <div className="items hidden md:block">
             <ul className='flex gap-1 md:gap-2 lg:gap-4' >
               <li>Home</li>
