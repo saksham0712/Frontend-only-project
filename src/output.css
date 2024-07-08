@@ -1223,6 +1223,14 @@ video {
   background-color: rgb(49 54 63 / var(--tw-bg-opacity));
 }
 
+.dark\:stroke-pink-50:is(.dark *) {
+  stroke: #fdf2f8;
+}
+
+.dark\:stroke-slate-500:is(.dark *) {
+  stroke: #64748b;
+}
+
 .dark\:text-gray-100:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
@@ -1260,6 +1268,11 @@ video {
 
 .dark\:brightness-200:is(.dark *) {
   --tw-brightness: brightness(2);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.dark\:grayscale:is(.dark *) {
+  --tw-grayscale: grayscale(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
